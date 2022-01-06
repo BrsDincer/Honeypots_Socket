@@ -66,7 +66,7 @@ class CONNECTION_OPS():
         my_ip_info = CONNECTION_OPS.GET_LOCAL_IP()
         print("%s"%ECHO_PRINT.GREEN_ECHO(my_ip_info))
         l_host = ATTRIBUTES_CONNECTION.LOCAL_HOST("0.0.0.0")
-        l_port = ATTRIBUTES_CONNECTION.LOCAL_PORT(7)
+        l_port = ATTRIBUTES_CONNECTION.LOCAL_PORT(80)
         CONNECTION_OPS.SOCKET_CONNECTION(l_host,l_port,5,1024)
         
                 
